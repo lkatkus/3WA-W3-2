@@ -64,3 +64,41 @@ function test(){
 }
 
 test();
+
+console.log("=========")
+
+var i = 100;
+console.log(i);
+
+for(let i = 0; i < 3; i++){ /* let describes "i" in its scope and after completion is removed from memory */
+    console.log(i);
+}
+
+console.log(i);
+
+for(var i = 0; i < 3; i++){
+    console.log(i);
+}
+
+console.log(i);
+
+console.log("=========")
+
+if(1 == true){ /* == compare with automatic conversion. === compare without automatic conversion */
+    console.log("lygu");
+}else{
+    console.log("labai nelygu");
+}
+
+
+
+var xm = 2;
+switch (xm) {
+    case 1:
+        console.log("lala 1");
+        break;
+    case 2:
+        console.log("lala 2");
+        break;
+    default:
+}
